@@ -36,9 +36,7 @@ file green_file
 
 The output identified `green_file` as a PNG image.
 
-![File type identification](assets/original-step1-file-type.jpeg)
 
-*Ref 1: Identifying the original file as a PNG image.*
 
 ---
 
@@ -52,9 +50,7 @@ binwalk green_file
 
 The scan revealed several file signatures, including gzip-compressed data beginning at byte offset `3243`.
 
-**Screenshot to add:** Full original Kali screenshot showing the `binwalk green_file` results.
 
-*Ref 2: Binwalk identifying embedded gzip data inside the PNG file.*
 
 ---
 
