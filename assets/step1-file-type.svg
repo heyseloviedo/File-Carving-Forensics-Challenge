@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640">
+<rect width="1280" height="640" rx="18" fill="#0d1117"/>
+<rect width="1280" height="54" rx="18" fill="#161b22"/>
+<circle cx="28" cy="27" r="8" fill="#ff5f56"/><circle cx="54" cy="27" r="8" fill="#ffbd2e"/><circle cx="80" cy="27" r="8" fill="#27c93f"/>
+<text x="105" y="34" fill="#c9d1d9" font-family="monospace" font-size="18">Kali Linux — file green_file</text>
+<g fill="#c9d1d9" font-family="monospace" font-size="24">
+<text x="42" y="115">$ cd ~/Downloads</text>
+<text x="42" y="165">$ ls</text>
+<text x="42" y="215">green_file</text>
+<text x="42" y="275">$ file green_file</text>
+<text x="42" y="325">green_file: PNG image data, 63 x 36, 8-bit/color RGBA, non-interlaced</text>
+</g>
+<text x="42" y="410" fill="#58a6ff" font-family="monospace" font-size="22">Finding: the unknown file was identified as a PNG image.</text>
+</svg>
