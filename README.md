@@ -36,7 +36,7 @@ file green_file
 
 The output identified `green_file` as a PNG image.
 
-![File type identification](assets/step1-file-type.svg)
+![File type identification](assets/real-step1-file-type.jpg)
 
 *Ref 1: Identifying the original file as a PNG image.*
 
@@ -52,7 +52,7 @@ binwalk green_file
 
 The scan revealed several file signatures, including gzip-compressed data beginning at byte offset `3243`.
 
-![Binwalk analysis](assets/step2-binwalk.svg)
+![Binwalk analysis](assets/real-step2-binwalk.jpg)
 
 *Ref 2: Binwalk identifying embedded gzip data inside the PNG file.*
 
@@ -137,6 +137,6 @@ cat flags/flags.txt
 
 This revealed the hidden challenge flag and completed the forensic investigation.
 
-![Flag recovery process](assets/step6-flag-recovery.svg)
+**Screenshot to add later:** Terminal showing the recovered flag. The flag can be cropped or blurred if you want to keep the answer private.
 
 *Ref 6: Reading the recovered flag from the extracted text file.*
